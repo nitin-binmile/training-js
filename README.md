@@ -3,15 +3,15 @@
 ## this doc for training-js
 ### topics 
 
-* JavaScript: Hello, World Example
-* JavaScript: "use strict"
-* JavaScript: Variables
-* JavaScript: Datatypes
-* JavaScript: Methods of primitives
-* JavaScript: Numbers
-* JavaScript: Strings
-* JavaScript: Arrays
-* JavaScript: Array Methods
+* JavaScript: Hello, World Example   &check;
+* JavaScript: "use strict"  &check;
+* JavaScript: Variables   &check;
+* JavaScript: Datatypes   &check;
+* JavaScript: Methods of primitives  &check;
+* JavaScript: Numbers  &check;
+* JavaScript: Strings &check;
+* JavaScript: Arrays &check;
+* JavaScript: Array Methods &check;
 * JavaScript: Iterables
 * JavaScript: Map and Set
 * JavaScript: alert, prompt, confirm
