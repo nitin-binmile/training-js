@@ -16,17 +16,17 @@ ___
 ___
 ### DAY 2
 ___
-* JavaScript: Iterables  &check;
-* JavaScript: Map and Set
-* JavaScript: alert, prompt, confirm
-* JavaScript: Type Conversions
-* JavaScript: Basic Operators, maths
-* JavaScript: Comparisions
-* JavaScript: Conditional branching: if, ?
-* JavaScript: Logical Operators
-* JavaScript: Nullish coalescing Operator
-* JavaScript: Loops: while and for
-* JavaScript: switch statement
+* ~~JavaScript: **Iterables**~~ &check;
+* ~~JavaScript: **Map and Set**~~ &check;
+* ~~JavaScript: **alert, prompt, confirm**~~ &check;
+* ~~JavaScript: **Type Conversions**~~ &check;
+* ~~JavaScript: **Basic Operators, maths**~~ &check;
+* ~~JavaScript: **Comparisions**~~ &check;
+* ~~JavaScript: **Conditional branching: if, ?**~~ &check;
+* ~~JavaScript: **Logical Operators**~~ &check;
+* ~~JavaScript: **Nullish coalescing Operator**~~ &check;
+* ~~JavaScript: **Loops: while and for**~~ &check;
+* ~~JavaScript: **switch statement**~~ &check;
 ___
 
 ### DAY 3
