@@ -1,5 +1,5 @@
 "use strict";
-// x = 3.14;  
+// x = 3.14;
 
 // Numbers:
 let length = 16;
@@ -14,7 +14,7 @@ let x = true;
 let y = false;
 
 // Object:
-const person = {firstName:"John", lastName:"Doe"};
+const person = { firstName: "John", lastName: "Doe" };
 
 // Array object:
 const cars = ["Saab", "Volvo", "BMW"];
@@ -22,14 +22,8 @@ const cars = ["Saab", "Volvo", "BMW"];
 // Date object:
 const date = new Date();
 
-let rohan={
-    name:"rohan",
-    sayHi:()=> alert("Hi buddy!"),
-
-}
-rohan.sayHi()
-
-
-
-
-
+let rohan = {
+  name: "rohan",
+  sayHi: () => alert("Hi buddy!"),
+};
+rohan.sayHi();
