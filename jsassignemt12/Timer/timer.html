@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Timer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    #timer {
+      font-size: 36px;
+      font-weight: bold;
+      padding: 10px;
+      border: 2px solid #333;
+      border-radius: 5px;
+    }
+
+    button {
+      font-size: 18px;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Timer</h1>
+  <p>Time: <span id="timer">00:00</span></p>
+  <button id="startBtn">Start</button>
+  <button id="pauseBtn">Pause</button>
+  <button id="stopBtn">Stop</button>
+
+ <script src="timer.js"></script>
+</body>
+</html>
