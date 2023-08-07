@@ -58,15 +58,14 @@
 
 ---
 
-- JavaScript: Destructring assignment
-- JavaScript: Destructring assignment
-- JavaScript: Date and Time
-- JavaScript: JSON methods, toJSON
-- JavaScript: setInterval, setTimeout
-- JavaScript: VAR vs LET vs CONST
-- JavaScript: Spread operator
-- JavaScript: Error handling, try catch
-- JavaScript: Custom errors
+- ~~JavaScript: **Destructring assignment**~~ &check;
+- ~~JavaScript: **Date and Time**~~&check;
+- ~~JavaScript: **JSON methods, toJSON**~~ &check;
+- ~~JavaScript: **setInterval, setTimeout**~~ &check;
+- ~~JavaScript: **VAR vs LET vs CONST**~~ &check;
+- ~~JavaScript: **Spread operator**~~ &check;
+- ~~JavaScript: **Error handling, try catch**~~ &check;
+- ~~JavaScript: **Custom errors**~~ &check;
 
 ---
 
