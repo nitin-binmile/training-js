@@ -73,11 +73,11 @@
 
 ---
 
-- JavaScript: Callbacks
-- JavaScript: Promises
-- JavaScript: Promises Chaining
-- JavaScript: Error Handling with promises
-- JavaScript: Async Await
-- JavaScript: Modules
-- JavaScript: Export and import
-- Extra : Object Constructor and Prototype
+- ~~JavaScript: **Callbacks**~~ &check;
+- ~~JavaScript: **Promises**~~ &check;
+- ~~JavaScript: **Promises Chaining**~~ &check;
+- ~~JavaScript: **Error Handling with promises**~~ &check;
+- ~~JavaScript: **Async Await**~~ &check;
+- ~~JavaScript: **Modules**~~ &check;
+- ~~JavaScript: **Export and import**~~ &check;
+- ~~Extra : **Object Constructor and Prototype**~~ &check;
