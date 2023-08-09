@@ -2,7 +2,8 @@
 function removeDuplicates(inputArray) {
 //   // Your code here
     //    const arr=new Set(inputArray);
-    const arr=  inputArray.sort();
+    const arr=  inputArray;
+    mergeSort(arr,(a,b)=>a<=b);
     console.log(arr)
     const result=[]
     for(x of arr){
@@ -62,9 +63,6 @@ console.log(transformedArray);
 //  // Expected output: [1, 4, 9, 16, 25]
 
 // 4.)
-function sortPeopleByAge(peopleArray) {
-//   // Your code here
-// write custom code for sorting the array
 
 function mergeSort(arr,compare){
     function merge(l,r,compare){
@@ -99,6 +97,12 @@ function mergeSort(arr,compare){
     }
     method(0,arr.length-1);
 }
+
+function sortPeopleByAge(peopleArray) {
+//   // Your code here
+// write custom code for sorting the array
+
+
 
     mergeSort(peopleArray,function(a,b){return a.age<=b.age;});
     
