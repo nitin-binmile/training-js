@@ -10,6 +10,8 @@ function removeDuplicates(inputArray) {
     }
        return result;
 }
+
+
 const input1 = [1, 2, 3, 2, 4, 3, 5];
 const result = removeDuplicates(input1);
 console.log(result); 
@@ -30,7 +32,7 @@ function isPrime(n) {
         return false;
 
     // Check from 2 to n-1
-    for (let i = 2; i < n; i++)
+    for (let i = 2; i <= Math.sqrt(n); i++)
         if (n % i == 0)
             return false;
 
@@ -62,18 +64,54 @@ console.log(transformedArray);
 // 4.)
 function sortPeopleByAge(peopleArray) {
 //   // Your code here
-    const temp=peopleArray.sort((a,b)=>a.age-b.age)
-    return temp;
+// write custom code for sorting the array
+
+function mergeSort(arr,compare){
+    function merge(l,r,compare){
+         let mid=Math.floor((l+r)/2);
+         let temp=new Array(r-l+1);
+         let i=l,j=mid+1;
+         let k=0;
+         while(i<=mid && j<=r){
+             if(compare(arr[i],arr[j])){
+                 temp[k++]=arr[i++];
+             }else{
+                   temp[k++]=arr[j++];
+             }
+         }
+         while(i<=mid){
+             temp[k++]=arr[i++];
+         }
+         while(j<=r){
+              temp[k++]=arr[j++];
+         }
+         
+         for(let x=l;x<=r;x++){
+               arr[x]=temp[x-l];
+         }
+    }
+    function method(l,r){
+        if(l==r) return;
+        let mid=Math.floor((l+r)/2);
+        method(l,mid);
+        method(mid+1,r);
+        merge(l,r,compare);
+    }
+    method(0,arr.length-1);
+}
+
+    mergeSort(peopleArray,function(a,b){return a.age<=b.age;});
+    
 }
 const people = [
   { name: "Alice", age: 30 },
   { name: "Bob", age: 25 },
   { name: "Charlie", age: 35 }
 ];
-const sortedPeople = sortPeopleByAge(people);
+sortPeopleByAge(people);
 
 
-console.log(sortedPeople);
+console.log(people);
 // // Expected output: [
 // //   { name: "Bob", age: 25 },
 // //   { name: "Alice", age: 30 },
@@ -87,7 +125,12 @@ console.log(sortedPeople);
 // 5.)
 function filterStudents(studentsArray) {
 //   // Your code here
-return students.filter(({score})=>score>=75)
+// filter by custom code
+const result=[];
+for(x of studentsArray){
+    if(x.score>=75) result.push(x);
+}
+return result;
 }
 const students = [
   { name: "Alice", score: 85 },
@@ -126,9 +169,16 @@ console.log(peopleWithPrefix);
 
 // 7.)
 function countVowels(str) {
+    // use custome code for counting vowels
+    function isVowel(ch){
+        let vowel="aAeEiIoOuU";
+        for(x of vowel) if(x==ch) return false;
+        return true;
+         
+    }
     let ctn=0;
        for(let ch of str){
-          if("aAeEiIoOuU".includes(ch)) ctn++;
+          if(isVowel(ch)) ctn++;
        }
        return ctn;
       // Your code here
